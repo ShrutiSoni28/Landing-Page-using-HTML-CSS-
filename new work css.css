@@ -1,0 +1,268 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+header {
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("bg image.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    color: #6151ef;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    padding-left: 30px;
+    float: left;
+    padding-top: 10px;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+.menu a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #6151ef;
+    transition: width 0.4s linear;
+}
+
+.menu a:hover::before{
+    width: 90%;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.sea{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srh {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #6151ef;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.son {
+    width: 100px;
+    height: 40px;
+    background: #6151ef;
+    border: 2px solid #6151ef;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.son:focus {
+    outline: none;
+}
+
+.srh:focus{
+    outline: none;
+}
+
+.shru {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+      
+}
+
+.shru .zero{
+    
+    padding-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.shru h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.shru .soni{
+    width: 160px;
+    height: 40px;
+    background: #6151ef;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.shru .soni a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    
+}
+
+.soni:hover{
+    background-color: antiquewhite;
+}
+
+.shru span{
+    color: #1d0ea3;
+    font-size: 60px;
+}
+
+.minku {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -10px;
+    left: 1028px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.minku h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1900ff;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.minku input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #6151ef;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.minku input:focus{
+    outline: none;
+
+}
+
+.minku .chotu{
+
+    width: 100px;
+    height: 40px;
+    background: #6151ef;
+    border: none;
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.chotu:hover{
+    background-color: antiquewhite;
+    box-shadow: 4px 4px 20px white;
+}
+
+.chotu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.minku .ss{
+
+    color: #6151ef;
+    text-decoration: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.minku .bld{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.ic a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.ic ion-icon{
+
+    color: white;
+    font-size: 30px;
+    padding-left: 23px;
+    padding-top: 20px;
+    transition: 0.3s ease;
+}
+
+.ic ion-icon:hover{
+    color: #6151ef;
+}
